@@ -1,6 +1,8 @@
 # PhoneInformationTracer
 
 # Installation Tips
+
+### Linux
 This script is written in python3 so python3 is required.
 
 Clone the git repository to your local machine.
@@ -16,6 +18,20 @@ or use pip3 in case you have both python2 and python3 install on your system
 ```bash
 pip3 install phonenumbers
 ```
+Everything is set! Now you can fire up the script.
+### Windows
+In order to run this script on windows, download the repository to your computer and make sure you have python3 installed or anaconda.
+
+Install phonenumbers library
+```batch
+pip install phonenumbers
+```
+Install argparse library
+```batch
+pip install argparse
+```
+
+Everything is set! Now you can fire up the script.
 
 # Usage
 
