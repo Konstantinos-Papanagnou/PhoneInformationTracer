@@ -56,7 +56,7 @@ optional arguments:
 
 Usage Example:
 ```bash
-python3 PhoneInformationTracer.py 6985456254
+python3 PhoneInformationTracer.py -i 6985456254
 ```
 
 If you want to change the country code you can simply add the -cc flag and set the flag.
