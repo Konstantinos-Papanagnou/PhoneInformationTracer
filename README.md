@@ -39,25 +39,32 @@ Everything is set! Now you can fire up the script.
 ============================================================
 Welcome to Phone Information Tracer made by Konstantinos Pap
 ============================================================
-usage: Phone Information Tracer [-h] [-cc COUNTRY_CODE] [-v] phoneNumber
-
-positional arguments:
-  phoneNumber           The Phone Number to Examine
+usage: Phone Information Tracer [-h] [-i INPUT] [-cc COUNTRY_CODE] [-v] [-l LIST] [-o OUTPUT]
 
 optional arguments:
   -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        The Phone Number imput to Examine
   -cc COUNTRY_CODE, --country-code COUNTRY_CODE
                         The Country Code, Default=+30 (GR)
   -v, --verbose         increase output verbosity
+  -l LIST, --list LIST  Specify a phone list to enumerate
+  -o OUTPUT, --output OUTPUT
+                        Specify a file to export the data
+
 ```
 
 Usage Example:
 ```bash
-python3 PhoneInformationTracker.py 6985456254
+python3 PhoneInformationTracer.py 6985456254
 ```
 
 If you want to change the country code you can simply add the -cc flag and set the flag.
 ```bash
-python3 PhoneInformationTracker.py 6985456254 -cc +30
+python3 PhoneInformationTracer.py -i 6985456254 -cc +30
+```
+Or you can pass a file to the program with phone numbers on each line and specify a output file
+```bash
+python3 PhoneInformationTracer.py -l input -o output
 ```
 Country code by default is +30.
