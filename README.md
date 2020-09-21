@@ -39,7 +39,7 @@ Everything is set! Now you can fire up the script.
 ============================================================
 Welcome to Phone Information Tracer made by Konstantinos Pap
 ============================================================
-usage: Phone Information Tracer [-h] [-i INPUT] [-cc COUNTRY_CODE] [-v] [-l LIST] [-o OUTPUT]
+usage: PhoneInformationTracer.py [-h] [-i INPUT] [-cc COUNTRY_CODE] [-v] [-l LIST] [-o OUTPUT]
 
 optional arguments:
   -h, --help            show this help message and exit
