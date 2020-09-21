@@ -30,7 +30,7 @@ class ParserData:
         else :
             if not args.list:
                 #parser.echo()
-                sys.stderr.write('You need to specify at least -i or -w option!\n\nRun PhoneInformationTracer.py -h for more help\n')
+                sys.stderr.write('You need to specify at least -i or -l option!\n\nRun PhoneInformationTracer.py -h for more help\n')
                 exit()
             self.list = True
             self.phoneNumbers = args.list
@@ -42,7 +42,7 @@ class ParserData:
  
 
     def configureParser(self):
-        parser = argparse.ArgumentParser(prog='Phone Information Tracer')
+        parser = argparse.ArgumentParser(prog='PhoneInformationTracer.py')
         parser.add_argument('-i', '--input', help='The Phone Number imput to Examine')
         parser.add_argument('-cc', '--country-code', help='The Country Code, Default=+30 (GR)')
         parser.add_argument('-v', '--verbose', action='store_true', help='increase output verbosity')
@@ -126,7 +126,6 @@ if __name__ == "__main__":
                 if '+' in line:
                     number = line[3:]
                     countryCode = line[:3]
-                    print(countryCode)
                 else:
                     number = line
                     countryCode = data.countryCode
