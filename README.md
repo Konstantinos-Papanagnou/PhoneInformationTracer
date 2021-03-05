@@ -18,7 +18,11 @@ or use pip3 in case you have both python2 and python3 install on your system
 ```bash
 pip3 install phonenumbers
 ```
+
+If you want to add it to your path simply run `chmod +x setup.sh` and `sudo ./setup.sh`.
+
 Everything is set! Now you can fire up the script.
+
 ### Windows
 In order to run this script on windows, download the repository to your computer and make sure you have python3 installed or anaconda.
 

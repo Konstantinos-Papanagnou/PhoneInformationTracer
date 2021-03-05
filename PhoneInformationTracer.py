@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import argparse
 import phonenumbers
 from phonenumbers import geocoder
