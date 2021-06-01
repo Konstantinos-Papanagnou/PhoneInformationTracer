@@ -1,7 +1,7 @@
 # PhoneInformationTracer
 
 # Installation Tips
-
+#### Note: On termux installation through the setup script is not adviced
 ### Linux
 This script is written in python3 so python3 is required.
 

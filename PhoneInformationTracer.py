@@ -6,6 +6,7 @@ from phonenumbers import geocoder
 from phonenumbers import carrier
 from phonenumbers import timezone
 import sys
+from bannermagic import printBannerPadding, printMessage
 
 
 class bcolors:
@@ -53,9 +54,9 @@ class ParserData:
         return parser
 
     def print_banner(self):
-        print("============================================================")
-        print("Welcome to Phone Information Tracer made by Konstantinos Pap")
-        print("============================================================")
+        printBannerPadding('*')
+        printMessage("Welcome to Phone Information Tracer made by Konstantinos Pap")
+        printBannerPadding('*')
 
 
 def ExamineNumber(phoneNumber, countryCode, verbosity=False):
