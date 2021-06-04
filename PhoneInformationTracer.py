@@ -55,7 +55,8 @@ class ParserData:
 
     def print_banner(self):
         printBannerPadding('*')
-        printMessage("Welcome to Phone Information Tracer made by Konstantinos Pap")
+        printMessage("Welcome to Phone Information Tracer")
+        printMessage("By Konstantinos Pap")
         printBannerPadding('*')
 
 
